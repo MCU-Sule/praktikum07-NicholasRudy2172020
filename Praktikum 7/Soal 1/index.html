@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <title>Soal 1</title>
+        <meta name =”author” content="Nicholas_Christopher_Rudy 2172020">
+    </head>
+    <body>
+        <script>
+            var mawar 
+            mawar = window.prompt("Berapa mawar yang ingin dibeli? (Rp. 5000)",)
+            var tulip 
+            tulip = window.prompt("Berapa tulip yang ingin dibeli? (Rp. 8000)",)
+            var anggrek 
+            anggrek = window.prompt("Berapa anggrek yang ingin dibeli? (Rp. 10000)",)
+            var uang
+            uang = window.prompt("Uang yang dibayarkan adalah",)
+            document.write("Anda membeli mawar sebanyak <b>"+ mawar, " bunga </b> dengan harga total Rp.", mawar*5000)
+            document.write("<br>");
+            document.write("Anda membeli tulip sebanyak <b>"+ tulip, " bunga </b> dengan harga total Rp.", tulip*8000)
+            document.write("<br>");
+            document.write("Anda membeli anggrek sebanyak <b>"+ anggrek, " bunga </b> dengan harga total Rp.", anggrek*10000)
+            document.write("<br>");
+            document.write("Total belanjaan anda <b> Rp.", mawar*5000 + tulip*8000 + anggrek*10000, "</b>")
+            document.write("<br>");
+            document.write("<br>");
+            if(uang>mawar*5000 + tulip*8000 + anggrek*10000){
+               document.write("Kembalian anda adalah ",  uang - (mawar*5000 + tulip*8000 + anggrek*10000))
+            } else {
+                document.write("Uang anda tidak mencukupi!")
+            }
+        </script>
+    </body>
+</html>
